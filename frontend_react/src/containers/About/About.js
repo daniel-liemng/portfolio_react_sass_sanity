@@ -13,8 +13,6 @@ const About = () => {
     client.fetch(query).then((data) => setAbouts(data));
   }, []);
 
-  console.log('AAA', abouts);
-
   return (
     <>
       <h2 className='head-text'>

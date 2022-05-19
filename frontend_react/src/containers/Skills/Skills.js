@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { client, urlFor } from '../../client';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { motion } from 'framer-motion';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import ReactTooltip from 'react-tooltip';
 
 import './Skills.scss';
