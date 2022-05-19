@@ -16,7 +16,7 @@ const About = () => {
   console.log('AAA', abouts);
 
   return (
-    <div className='app__about'>
+    <>
       <h2 className='head-text'>
         I Know that <span>Good Development</span>
         <br />
@@ -42,7 +42,7 @@ const About = () => {
           </motion.div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

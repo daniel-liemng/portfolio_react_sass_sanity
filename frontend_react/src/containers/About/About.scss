@@ -40,4 +40,22 @@
       height: 320px;
     }
   }
+
+  @media screen and (max-width: 1150px) {
+    width: 300px;
+    margin: 2rem 4rem;
+
+    img {
+      height: 260px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    width: 300px;
+    margin: 2rem 4rem;
+
+    img {
+      height: 300px;
+    }
+  }
 }
